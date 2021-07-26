@@ -92,6 +92,7 @@ img {
 .contact__link {
   color: var(--primary-tex-color);
 }
+
 .heder__contact {
   margin-top: 0;
   margin-bottom: 0;
@@ -214,6 +215,30 @@ img {
 .features__about {
   margin: 0;
   padding-top: 10px;
+}
+.features__item1::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.features__item2::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.features__item3::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.features__item4::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
 }
 
 /* =======Робота======= */
