@@ -216,29 +216,27 @@ img {
   margin: 0;
   padding-top: 10px;
 }
-.features__item1::before {
+.features__item::before {
   display: block;
   content: "";
   height: 120px;
   background-color: #f5f4fa;
+  margin-bottom: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.features__item2::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
+.icon__antena::before {
+  background-image: url(../img/antenna.svg);
 }
-.features__item3::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
+.icon__clock::before {
+  background-image: url(../img/clock.svg);
 }
-.features__item4::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
+.icon__diagram::before {
+  background-image: url(../img/diagram.svg);
+}
+.icon__astronaut::before {
+  background-image: url(../img/astronaut.svg);
 }
 
 /* =======Робота======= */
