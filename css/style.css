@@ -299,6 +299,15 @@ img {
   text-align: center;
   background-color: white;
 }
+.social {
+  display: block;
+  margin-top: 16px;
+}
+.network {
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+}
 
 /* =====Розмітка Футера===== */
 
