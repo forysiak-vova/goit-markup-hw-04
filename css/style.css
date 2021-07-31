@@ -300,13 +300,20 @@ img {
   background-color: white;
 }
 .social {
-  display: block;
+  display: inline-flex;
   margin-top: 16px;
+  background-color: white;
 }
 .network {
   width: 44px;
   height: 44px;
   justify-content: center;
+  fill: white;
+}
+
+.network:hover,
+.network:focus {
+  fill: var(--accent-color);
 }
 
 /* =====Розмітка Футера===== */
