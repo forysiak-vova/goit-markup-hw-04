@@ -309,13 +309,18 @@ img {
 }
   .social__item{
   margin-right: 10px;
+  align-items: center;
   }
 
 .social__link {
-  display: block;
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   border: 1px solid transparent;
   border-radius: 50%;
+  align-items: center;
   
 }
 .social__icon {
