@@ -299,21 +299,30 @@ img {
   text-align: center;
   background-color: white;
 }
-.social {
-  display: inline-flex;
-  margin-top: 16px;
-  background-color: white;
+
+.social__list {
+  display: grid;
+  grid-template-columns: repeat(4, 44px);
+  gap: 10px;
 }
-.network {
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
-  justify-content: center;
-  fill: white;
+  border-radius: 50%;
+  margin-top: 16px;
+  margin-left: 32px;
+  fill: #afb1b8;
 }
-
-.network:hover,
-.network:focus {
-  fill: var(--accent-color);
+.social__icon {
+  width: 20px;
+  height: 20px;
+}
+.social__link :hover {
+  fill: white;
+  background-color: var(--accent-color);
 }
 
 /* =====Розмітка Футера===== */
