@@ -345,11 +345,14 @@ margin-right: 0px;
 
 
 /* =======логотипи компаній======= */
-.logo-company__title{
-  margin-bottom: 50px;
-}
+
+
 .logo-company__item{
   display: flex;
+}
+.logo-company__item :hover,
+.logo-company__item :focus{
+  fill: var(--accent-color);
 }
 
 .logo-company__link{
@@ -369,12 +372,7 @@ margin-right: 0px;
   width: 62px;
   height: 45px;
 }
-.logo-company__item :hover,
-.logo-company__item :focus{
-  fill: var(--accent-color);
-}
 
-/* ======= Розмітка логотипи компаній======= */
 
 .logo-company__title {
   text-align: center;
@@ -383,9 +381,9 @@ margin-right: 0px;
   font-style: bold;
   font-size: 36px;
   line-height: 1.17;
-  
   letter-spacing: 3%;
   color: var(--title-tex-color);
+  margin-bottom: 50px;
 }
 .logo-company__list{
   display: grid;
@@ -426,6 +424,19 @@ margin-right: 0px;
 }
 .footer-contact__item:last-child {
   margin-bottom: 0px;
+}
+
+/* =======логотипи компаній футер ======= */
+.footer__container{
+display: flex;
+}
+.footer__box{
+ display: flex;
+ flex-direction: column;
+}
+.join{
+  display: flex;
+  flex-direction: column;
 }
 
 /* =======кнопки портфоліо======= */
