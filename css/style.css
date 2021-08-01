@@ -143,7 +143,8 @@ img {
   align-items: center;
   margin-right: 10px;
 }
-.contact__link:hover .contact__icon {
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
   fill: var(--accent-color);
 }
 /* =======розмітка героя======= */
@@ -279,8 +280,7 @@ img {
   gap: 30px;
 }
 .our-team__item {
-  drop-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25))
-    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 4px 4px rgba(207, 137, 137, 0.25);
 }
 .our-team-name {
   font-weight: 500;
@@ -476,6 +476,7 @@ img {
 .portfolio__button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .portfolio__list {
   display: flex;
@@ -493,6 +494,10 @@ img {
   font-style: normal;
   font-weight: bold;
   color: #212121;
+}
+.gallery__item:hover,
+.gallery__item:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .gallery__about {
   font-size: 16px;
