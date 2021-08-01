@@ -137,6 +137,12 @@ img {
   padding-bottom: 24px;
 }
 
+.contact__icon {
+  align-items: center;
+}
+.contact__icon:hover {
+  fill: var(--accent-color);
+}
 /* =======розмітка героя======= */
 
 .hero {
@@ -216,7 +222,7 @@ img {
   margin: 0;
   padding-top: 10px;
 }
-.features__item::before {
+/* .features__item::before {
   display: block;
   content: "";
   height: 120px;
@@ -237,7 +243,7 @@ img {
 }
 .icon__astronaut::before {
   background-image: url(../img/astronaut.svg);
-}
+} */
 
 /* =======Робота======= */
 
@@ -292,8 +298,7 @@ img {
 .our-team__about {
   font-size: 16px;
   line-height: 1.19;
- margin-bottom: 16px;
-  
+  margin-bottom: 16px;
 }
 .our-worker {
   padding: 30px 30px;
@@ -303,17 +308,16 @@ img {
 
 /* =======Розмітка соцмереж======= */
 
-
 .social__list {
   display: flex;
 }
-  .social__item{
+.social__item {
   margin-right: 10px;
   align-items: center;
-  }
-  .social__item:last-child{
-margin-right: 0px;
-  }
+}
+.social__item:last-child {
+  margin-right: 0px;
+}
 
 .social__link {
   display: flex;
@@ -324,60 +328,52 @@ margin-right: 0px;
   border: 1px solid transparent;
   border-radius: 50%;
   align-items: center;
-  
 }
 .social__icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
- 
-  
 }
 .social__link:hover .social__icon,
-.social__link:focus .social__icon{
-  fill: white; 
+.social__link:focus .social__icon {
+  fill: white;
 }
 .social__link:hover,
-.social__link:focus{
+.social__link:focus {
   background-color: var(--accent-color);
 }
 
-
-
 /* =======логотипи компаній======= */
 
-
-.logo-company__item{
+.logo-company__item {
   display: flex;
 }
 .logo-company__item :hover,
-.logo-company__item :focus{
+.logo-company__item :focus {
   fill: var(--accent-color);
 }
 
-.logo-company__link{
+.logo-company__link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 106px;
   height: 60px;
-  
+
   border: 1px solid #afb1b8;
   fill: #afb1b8;
   width: 170px;
   height: 92px;
   margin-bottom: 94px;
 }
-.logo-company__icon{
+.logo-company__icon {
   width: 62px;
   height: 45px;
 }
 
-
 .logo-company__title {
   text-align: center;
   padding-top: 94px;
-  font-family: Roboto
   font-style: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -385,7 +381,8 @@ margin-right: 0px;
   color: var(--title-tex-color);
   margin-bottom: 50px;
 }
-.logo-company__list{
+
+.logo-company__list {
   display: grid;
   grid-template-columns: repeat(6, 170px);
   gap: 30px;
@@ -429,34 +426,33 @@ margin-right: 0px;
 
 /* =======логотипи соцмереж футер ======= */
 
-
-.footer__container{
-display: flex;
+.footer__container {
+  display: flex;
 }
-.footer__box{
- display: flex;
- flex-direction: column;
+.footer__box {
+  display: flex;
+  flex-direction: column;
 }
-.join{
+.join {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 }
-.join__title{
+.join__title {
   font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #ffffff;
-margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
-.footer-social__link{
+.footer-social__link {
   background-color: #757575;
 }
-.footer-social__icon{
+.footer-social__icon {
   fill: #ffffff;
 }
 
