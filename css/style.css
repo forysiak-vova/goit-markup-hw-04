@@ -396,6 +396,7 @@ margin-right: 0px;
 .address__footer {
   font-style: normal;
   margin-top: 20px;
+  margin-right: 60px;
 }
 .footer__link {
   color: rgba(255, 255, 255, 0.6);
@@ -426,7 +427,9 @@ margin-right: 0px;
   margin-bottom: 0px;
 }
 
-/* =======логотипи компаній футер ======= */
+/* =======логотипи соцмереж футер ======= */
+
+
 .footer__container{
 display: flex;
 }
@@ -437,6 +440,24 @@ display: flex;
 .join{
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
+}
+.join__title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #ffffff;
+margin-bottom: 20px;
+}
+.footer-social__link{
+  background-color: #757575;
+}
+.footer-social__icon{
+  fill: #ffffff;
 }
 
 /* =======кнопки портфоліо======= */
