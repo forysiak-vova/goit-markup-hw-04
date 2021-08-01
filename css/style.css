@@ -91,6 +91,7 @@ img {
 }
 .contact__link {
   color: var(--primary-tex-color);
+  display: flex;
 }
 
 .heder__contact {
@@ -99,6 +100,7 @@ img {
   margin-left: auto;
   display: flex;
   align-items: center;
+  align-self: center;
 }
 
 .navigation {
@@ -139,8 +141,9 @@ img {
 
 .contact__icon {
   align-items: center;
+  margin-right: 10px;
 }
-.contact__icon:hover {
+.contact__link:hover .contact__icon {
   fill: var(--accent-color);
 }
 /* =======розмітка героя======= */
@@ -222,28 +225,7 @@ img {
   margin: 0;
   padding-top: 10px;
 }
-/* .features__item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
-  margin-bottom: 30px;
 
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon__antena::before {
-  background-image: url(../img/antenna.svg);
-}
-.icon__clock::before {
-  background-image: url(../img/clock.svg);
-}
-.icon__diagram::before {
-  background-image: url(../img/diagram.svg);
-}
-.icon__astronaut::before {
-  background-image: url(../img/astronaut.svg);
-} */
 .features__box {
   width: 270px;
   height: 120px;
@@ -295,6 +277,10 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 270px);
   gap: 30px;
+}
+.our-team__item {
+  drop-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .our-team-name {
   font-weight: 500;
@@ -354,9 +340,14 @@ img {
 .logo-company__item {
   display: flex;
 }
-.logo-company__item :hover,
-.logo-company__item :focus {
+.logo-company__link:hover .logo-company__icon,
+.logo-company__link:focus .logo-company__icon {
   fill: var(--accent-color);
+}
+
+.logo-company__link:hover,
+.logo-company__link:focus {
+  border-color: var(--accent-color);
 }
 
 .logo-company__link {
@@ -497,10 +488,21 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  color: #212121;
 }
 .gallery__about {
   font-size: 16px;
   line-height: 1.87;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .gallery__list {
   display: grid;
@@ -519,4 +521,7 @@ img {
 
 .portfolio__item:last-child {
   margin-right: 0px;
+}
+.gallery__link {
+  text-decoration: none;
 }
