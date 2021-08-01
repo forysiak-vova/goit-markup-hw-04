@@ -244,6 +244,14 @@ img {
 .icon__astronaut::before {
   background-image: url(../img/astronaut.svg);
 } */
+.features__box {
+  width: 270px;
+  height: 120px;
+  /* border: 1px solid #afb1b8; */
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  padding-top: 25px;
+}
 
 /* =======Робота======= */
 
@@ -330,8 +338,6 @@ img {
   align-items: center;
 }
 .social__icon {
-  width: 20px;
-  height: 20px;
   fill: #afb1b8;
 }
 .social__link:hover .social__icon,
@@ -365,10 +371,6 @@ img {
   width: 170px;
   height: 92px;
   margin-bottom: 94px;
-}
-.logo-company__icon {
-  width: 62px;
-  height: 45px;
 }
 
 .logo-company__title {
