@@ -311,6 +311,9 @@ img {
   margin-right: 10px;
   align-items: center;
   }
+  .social__item:last-child{
+margin-right: 0px;
+  }
 
 .social__link {
   display: flex;
@@ -330,17 +333,24 @@ img {
  
   
 }
-.social__link:hover .social__icon{
+.social__link:hover .social__icon,
+.social__link:focus .social__icon{
   fill: white; 
 }
-.social__link:hover{
+.social__link:hover,
+.social__link:focus{
   background-color: var(--accent-color);
 }
 
 
 
 /* =======логотипи компаній======= */
-
+.logo-company__title{
+  margin-bottom: 50px;
+}
+.logo-company__item{
+  display: flex;
+}
 
 .logo-company__link{
   display: flex;
@@ -348,11 +358,19 @@ img {
   align-items: center;
   width: 106px;
   height: 60px;
-  margin-top: 50px;
+  
+  border: 1px solid #afb1b8;
   fill: #afb1b8;
+  width: 170px;
+  height: 92px;
+  margin-bottom: 94px;
 }
-.logo-company__link :hover,
-.logo-company__link :focus{
+.logo-company__icon{
+  width: 62px;
+  height: 45px;
+}
+.logo-company__item :hover,
+.logo-company__item :focus{
   fill: var(--accent-color);
 }
 
