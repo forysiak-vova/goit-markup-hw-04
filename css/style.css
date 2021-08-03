@@ -142,6 +142,7 @@ img {
 .contact__icon {
   align-items: center;
   margin-right: 10px;
+  fill: var(--primary-tex-color);
 }
 .contact__link:hover .contact__icon,
 .contact__link:focus .contact__icon {
@@ -341,6 +342,10 @@ img {
 
 /* =======логотипи компаній======= */
 
+.logo__company {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .logo-company__item {
   display: flex;
 }
@@ -365,12 +370,10 @@ img {
   fill: #afb1b8;
   width: 170px;
   height: 92px;
-  margin-bottom: 94px;
 }
 
 .logo-company__title {
   text-align: center;
-  padding-top: 94px;
   font-style: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -390,7 +393,6 @@ img {
 .address__footer {
   font-style: normal;
   margin-top: 20px;
-  margin-right: 60px;
 }
 .footer__link {
   color: rgba(255, 255, 255, 0.6);
@@ -425,16 +427,12 @@ img {
 
 .footer__container {
   display: flex;
+  align-items: baseline;
 }
 .footer__box {
-  display: flex;
-  flex-direction: column;
+  margin-right: 60px;
 }
-.join {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
+
 .join__title {
   font-family: Roboto;
   font-style: normal;
@@ -497,12 +495,16 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  color: #212121;
+  color: var(--title-tex-color);
 }
-.gallery__item:hover,
-.gallery__item:focus {
+.gallery__link {
+  display: block;
+}
+.gallery__link:hover,
+.gallery__link:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .gallery__about {
   font-size: 16px;
   line-height: 1.87;
@@ -511,7 +513,7 @@ img {
   font-weight: normal;
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-tex-color);
 }
 .gallery__list {
   display: grid;
